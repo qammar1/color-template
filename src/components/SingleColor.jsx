@@ -11,7 +11,8 @@ const SingleColor = ({rgb,weight,index}) => {
     <article className={`color`} style={{backgroundColor:hex}}>
   <p className='percent-value'>{weight}%</p>
   <p className='color-value'>{hex}</p>
-  <p className='color-value'>{hex}</p>
+  <h1 className='color-value'>{hex}</h1>
+  <h1 className='color-value'>{hex}</h1>
     </article>
   );
 }
